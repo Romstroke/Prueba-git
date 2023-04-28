@@ -110,3 +110,15 @@ Date:   Fri Apr 28 13:27:46 2023 -0400
 :
 
 10)
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git commit -m "Cambio en linea 18 index.html y agrego pasos 8 y 9 a txt"
+[master d1c8312] Cambio en linea 18 index.html y agrego pasos 8 y 9 a txt
+ 2 files changed, 47 insertions(+), 2 deletions(-)
+
+ 11)
