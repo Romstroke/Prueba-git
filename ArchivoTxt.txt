@@ -1,0 +1,59 @@
+1)2)
+PS G:\Mi unidad\gugul drai\Ejercicios TD\MOD2\Cue 12\REBOUND> git init
+Initialized empty Git repository in G:/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND/.git/ 
+
+(Ahi me di cuenta que estaba en powershell, asi que me moví a bash)
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ touch ArchivoTxt.txt
+
+3)
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ArchivoTxt.txt
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+4)
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git commit -m "Trackear archivos index.html y ArchivoTxt.txt"
+[master (root-commit) aa816d0] Trackear archivos index.html y ArchivoTxt.txt
+ 2 files changed, 24 insertions(+)
+ create mode 100644 ArchivoTxt.txt
+ create mode 100644 index.html
+
+5)
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git log
+commit aa816d08caa8615bfa36e89a8e9b63835b12c80e (HEAD -> master)
+Author: Romina <rominchuela@gmail.com>
+Date:   Fri Apr 28 13:27:46 2023 -0400
+
+    Trackear archivos index.html y ArchivoTxt.txt
+
+6)
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git status ArchivoTxt.txt 
+On branch master
+nothing to commit, working tree clean
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git status ArchivoTxt.txt 
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ArchivoTxt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
