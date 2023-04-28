@@ -57,3 +57,12 @@ Changes not staged for commit:
         modified:   ArchivoTxt.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git commit -m "Agrego 'GIT' a title en index, y paso 6 a txt" 
+[master 397853e] Agrego 'GIT' a title en index, y paso 6 a txt
+ 2 files changed, 61 insertions(+), 2 deletions(-)
