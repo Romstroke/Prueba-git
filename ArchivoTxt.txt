@@ -66,3 +66,47 @@ cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cu
 $ git commit -m "Agrego 'GIT' a title en index, y paso 6 a txt" 
 [master 397853e] Agrego 'GIT' a title en index, y paso 6 a txt
  2 files changed, 61 insertions(+), 2 deletions(-)
+
+ 7)
+ cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ArchivoTxt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+8)
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)
+$ git commit -m "Agrego paso 7"
+[master 1d4f9dd] Agrego paso 7
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+ 9)
+ cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)     
+$ git log
+commit 1d4f9dd8922d2524ac2172a78d2e1b96b204fe8e (HEAD -> master)
+Author: Romina <rominchuela@gmail.com>
+Date:   Fri Apr 28 13:39:18 2023 -0400
+
+    Agrego paso 7
+
+commit 397853ea57d3216b5ec4d9285a98634894dcbf42
+Author: Romina <rominchuela@gmail.com>
+Date:   Fri Apr 28 13:36:14 2023 -0400
+
+    Agrego 'GIT' a title en index, y paso 6 a txt
+
+commit aa816d08caa8615bfa36e89a8e9b63835b12c80e
+Author: Romina <rominchuela@gmail.com>
+Date:   Fri Apr 28 13:27:46 2023 -0400
+
+    Trackear archivos index.html y ArchivoTxt.txt
+:
+
+10)
