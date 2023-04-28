@@ -122,3 +122,12 @@ $ git commit -m "Cambio en linea 18 index.html y agrego pasos 8 y 9 a txt"
  2 files changed, 47 insertions(+), 2 deletions(-)
 
  11)
+ cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)      
+$ git add .
+
+cliente 32@DESKTOP-RGI8S3L MINGW64 /g/Mi unidad/gugul drai/Ejercicios TD/MOD2/Cue 12/REBOUND (master)      
+$ git commit -m "agrego paso 10 y 11 a txt, y un error en linea 16 a 20 en index"
+[master 51a201c] agrego paso 10 y 11 a txt, y un error en linea 16 a 20 en index
+ 2 files changed, 16 insertions(+), 4 deletions(-)
+
+ 
